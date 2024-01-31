@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>REST API Webalkalmazás</h1>
+
+    <div id="data-container"></div>
+
+    <h2>Új adat létrehozása</h2>
+    <form id="createForm">
+      <label for="name">Név:</label>
+      <input type="text" id="name" name="name" required>
+  
+      <label for="color">Szin:</label>
+      <input type="text" id="color" name="color">
+  
+      <label for="capacity">Kapacitás:</label>
+      <input type="text" id="capacity" name="capacity">
+
+      <label for="id">ID:</label>
+      <input type="text" id="id" name="id" placeholder="ID">
+  
+      <button type="button" id="submitForm">Létrehozás</button>
+    </form>
+    <form id="modifyFormData">
+      <label for="modifyName">Név:</label>
+      <input type="text" id="modifyName" name="name" required placeholder="név módositás">
+    
+      <label for="modifyColor">Szin:</label>
+      <input type="text" id="modifyColor" name="color" placeholder="Szin módositás">
+    
+      <label for="modifyCapacity">Kapacitás:</label>
+      <input type="text" id="modifyCapacity" name="capacity" placeholder="Tárhely módositás">
+      
+      <label for="modifyId">ID:</label>
+      <input type="text" id="modifyId" name="id" placeholder="ID módositás">
+
+      <button type="button" id="modifyFormButton">Módositás</button>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>
